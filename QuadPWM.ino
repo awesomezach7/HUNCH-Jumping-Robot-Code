@@ -35,8 +35,8 @@
 // ===========================
 // Enter your WiFi credentials
 // ===========================
-const char* ssid = "nasahunch";
-const char* password = "nasahunch";
+const char* ssid = "your-ssid";
+const char* password = "your-password";
 
 void startCameraServer();
 void setupLedFlash(int pin);

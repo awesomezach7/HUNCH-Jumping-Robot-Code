@@ -1237,10 +1237,6 @@ static esp_err_t index_handler(httpd_req_t *req)
 
 void startCameraServer()
 {
-    BLDC1.attach(BLDC1_pin);
-    BLDC2.attach(BLDC2_pin);
-    SERVO1.attach(SERVO1_pin);
-    SERVO2.attach(SERVO2_pin);
     httpd_config_t config = HTTPD_DEFAULT_CONFIG();
     config.max_uri_handlers = 16;
 
